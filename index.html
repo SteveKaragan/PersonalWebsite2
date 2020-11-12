@@ -1,0 +1,73 @@
+<!--The usual HTML Head -->
+<!DOCTYPE html>
+<html lang='en-US'>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Intro Web Page</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+<!--Tried to use Semantic tags-->
+<body>
+  <header>
+    <!--This div may be unnecessary, but saw it included in other HTML files-->
+    <div>
+      <h1>Stephen Karagan</h1>
+      <h4>Software Engineer</h4>
+      <!--NAV bar with links to other sections of page (css has pseudo hover for the links)-->
+      <nav>
+        <a href='#intro'>Intro</a><a href='#about'>About Me</a><a href='#contact'>Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div>
+      <!--The picture quality is lacking, sorry.  Don't like my photo taken.  I tried to upload some jpegs of NYC, but they would not load in the browser :-(-->
+        <img src='Me.jpeg' alt='Steve Karagan Picture'>
+      <!--The id's are so the links in the NAV work.-->
+        <section id='intro'>
+          <h2>Welcome, I am Steve Karagan</h2>
+          <p>I am an aspiring Software Engineer, and I live in New York City<p>
+          <p>I enjoy working collaboratively as well as being an independent contributor.</p>
+          <p>My professional background is broad and as varied as my interests.  I have domain expertise in:</p>
+          <ol>
+            <li>Finance</li>
+            <li>Higher Education</li>
+            <li>Fitness</li>
+            <li>Renewable Energy</li>
+          </ol>
+        </section>
+        <hr>
+        <section id='about'>
+          <h3>About Me</h3>
+          <p>After conducting a review of my career thus far, I realized that I had most enjoyed periods of change and improvement--and, you guessed it, that always involved technology!  I developed several desktop solutions for employers, and was a member of several software implementations in the finance space.</p>
+          <p>I've enrolled at Bloc to become a software engineer, and participate in the information revolution of our times.</p>
+          <p>I am very open to networking, collaborating, and career opportunities, and I enjoy hearing how other developers have navigated their careers.</p>
+          <p>My favorite activity is experiencing different cultures, whether that is exploring New York's diversity or foreign travel:</p>
+          <ul>
+            <li>Brazil</li>
+            <li>Colombia</li>
+            <li>Greece</li>
+            <li>Italy</li>
+            <li>France</li>
+          </ul>
+        </section>
+        <hr>
+        <section id='contact'>
+          <div>
+            <h3>Get in Contact</h3>
+            <p>Contact me, I would love to hear from you!</p>
+          </div>
+        </section>
+    </div>
+  </main>
+
+  <footer>
+    <!--Tested external links and they were working, email should load defalt email program with TO filled out to me!-->
+    <a href='https://www.linkedin.com/in/stephenkaragan/' target="_blank">LinkedIn</a><a href='https://github.com/SteveKaragan' target="_blank">GitHub</a><a href="mailto:stevekaragan@gmail.com">Email Me</a>
+  </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
